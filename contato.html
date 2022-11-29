@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato Barbearia Tyex</title>
+    <link rel="stylesheet" href="contatostyle.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="produtos.html">
+</head>
+<body>
+    <Header>
+        <div class="caixa">
+                <h1><img src="logo.jpeg" alt="Logo da Barbearia Tyex"></h1>
+                <nav>
+                    <ul>
+                        <li> <a href="index.html">Inicio</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+            </nav>
+        </div>
+    </Header>
+
+    <main>
+        <form>
+            <label for="nomesobrenome">Nome e Sobrenome</label>
+            <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+            <label for="text">Instagram</label>
+            <input type="text" id="text" class="input-padrao" required placeholder="@seuusername">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="30" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+            <fieldset>    
+                <legend>Como prefere nosso contato?</legend>
+                <label for="radio-instagram"><input type="radio" name="contato" value="Instagram" id="radio-instagram">Instagram</label>
+                
+                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                
+                <label for="radio-whatsapp"> <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp"checked>WhatsApp</label>
+            </fieldset>   
+                <fieldset>
+                    <legend>Qual horário prefere ser atendido?</legend>
+                    <select name="" id="">
+                        <option value="">Manhã</option>
+                        <option value="">Tarde</option>
+                        <option value="">Noite</option>
+                    </select>
+                </fieldset>
+            <label class="checkbox"><input type="checkbox"checked>Gostaria de receber nossas novidades por WhatsApp?</label>
+            </label>
+
+            <input type="submit" value="Enviar Formulário" class="enviar">
+        </form>
+    </main>
+    <footer>
+        <img src="logo.jpeg" alt="imagemdefundo">
+    </footer>
+</body>
+</html>
