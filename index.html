@@ -1,52 +1,70 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio Barbearia Tyex</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-</head>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Barbearia Tyex</title>
 
-<body>
-    <header>
-        <div class="caixa">
-            <h1><img src="logo.jpeg" alt="logo"></h1>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	</head>
 
-            <nav>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="produtos.html">Produtos</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+	<body>
+		<header>
+			<div class="caixa">
+				<h1><img src="logo.jpeg"></h1>
 
-    <img class="banner" src="fotoinicio.jpeg" alt="banner">
-
-    <main>
-        <section class="principal">
-            <h2 class="titulo-centralizado">Sobre a Barbearia Tyex</h2>
-
-            <p>Localizada no Paranoá - DF a <strong>Barbearia Tyex</strong> traz o que há de melhor para seu cabelo e barba.</p>  
-            <p>Com o barbeiro Bruno Tyex você recupera sua autoestima. Não perca tempo e fique na régua!</p>
-        </section>
-
-        <section class="beneficios">
-            <h3 class="titulo-principal">Benefíios</h3>
-            <ul>
-                <li class="itens">Atendimento aos Clientes</li>
-                <li class="itens">Localização</li>
-                <li class="itens">Bom profissioal</li>
-            </ul>
-            <img src="beneficios.jpeg" alt="imagembeneficios">
-        </section>
-    </main>
+				<nav>
+					<ul>
+						<li><a href="index.html">Inicio</a></li>
+						<li><a href="produtos.html">Produtos</a></li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
 
 
-    <footer>
-        <img src="logo.jpeg" alt="imagemdefundo">
-    </footer>
-</body>
+		<main>
+			<section class="principal">
+				<h2 class="titulo-principal">Sobre a Barbearia Tyex</h2>
+
+				<img class="utensilios" src="utensilios.jpg" alt="Utensilios de um barbeiro.">
+		 
+				<p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
+
+				<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+			</section>
+
+			<section class="mapa">
+				<h3 class="titulo-principal">Nosso estabelecimento</h3>
+				<p>Nosso estabelecimento está localizado na transversal do Paranoá.</p>
+
+				<div class="mapa-conteudo">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d544628.912250749!2d-47.99993112282366!3d-15.75020848304474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3dff194ae26b%3A0x60e83c661ebf92c6!2sDondoca%20studio%20de%20beleza!5e0!3m2!1spt-BR!2sbr!4v1670355295028!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</section>
+
+			<section class="beneficios">
+				<h3 class="titulo-principal">Benefícios</h3>
+
+				<div class="conteudo-beneficios">
+					<ul class="lista-beneficios">
+						<li class="itens">Atendimento aos Clientes</li>
+						<li class="itens">Espaço diferenciado</li>
+						<li class="itens">Localização</li>
+						<li class="itens">Profissionais Qualificados</li>
+						<li class="itens">Pontualidade</li>
+						<li class="itens">Limpeza</li>
+					</ul><img src="beneficios.jpg" class="imagem-beneficios">
+				</div>
+
+			</section>
+		</main>
+
+		<footer>
+			<img src="logo.jpeg">
+			<p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
+		</footer>
+	</body>
+</html>
